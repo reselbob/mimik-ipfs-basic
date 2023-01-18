@@ -1,0 +1,29 @@
+{
+  "name": "mimik-ipfs-basic",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A demonstration application integrating the Interplanetary File System with mimik Edge technology",
+  "scripts": {
+    "test": "mocha tests/**/*tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reselbob/mimik-ipfs-basic.git"
+  },
+  "keywords": [
+    "ipfs",
+    "mimik"
+  ],
+  "author": "Bob Reselman <reselbob@gmail.com>",
+  "dependencies": {
+    "ipfs-core": "^0.16.0",
+    "it-all": "^1.0.4",
+    "uint8arrays": "^3.0.0",
+    "winston": "^3.8.2"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "chai": "^4.3.7",
+    "mocha": "^10.1.0"
+  }
+}
